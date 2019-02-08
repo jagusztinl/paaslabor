@@ -28,7 +28,9 @@ _sudo systemctl status openshift_ paranccsal ellenőrizd, hogy fut-e.
 _További dokumentáció: https://docs.openshift.org/latest/welcome/index.html_
 
 ```shell
-oc login https://bmepaas-master.openshift.local:8443
+oc cluster status
+oc cluster up
+oc login https://127.0.0.1:8443
 #vagy lokálisan:
 oc login -u system:admin
 oc project XXXX
@@ -37,7 +39,7 @@ oc project XXXX
 
 ### oc CLI, fő komponensek
 ```shell
- oc login https://bmepaas-master.openshift.local:8443    
+ oc login https://127.0.0.1:8443   
 #vagy lokálisan:
 oc login -u system:admin
 ```

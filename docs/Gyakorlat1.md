@@ -33,8 +33,8 @@ Ennek a feladatnak a célja, hogy a legfontosabb Docker parancsokat megismerjét
 
 1. Listázd az elérhető Docker parancsokat, ismerkedj meg a help-jével, hogy könnyen megtalálj majd mindent a későbbiekben. (exec, images, info, inspect, logs, ps, pull, run, search, ...)
 2. Nézd meg milyen image-ek vannak már lehúzva a helyi registry-be.
-3. Keress egy cirros image-et és húzd a local repoba (Ez egy lightweight linux).
-4. Indíts el egy az előbbi cirros image-ből készített container-t
+3. Keress egy CirrOS image-et és húzd a local repoba (Ez egy lightweight linux).
+4. Indíts el egy az előbbi CirrOS image-ből készített container-t
   * Lépj be rá egy terminálba /bin/sh shell-be és győződj meg róla, hogy valóban egy izolált containerben vagy! (docker run -it kapcsolóra keress rá akár neten!)
   * Hasonlítsd össze a futó processzeket a containerben és a host gépen. (ps)
 5. Ellenőrizd a következőket a futó containerben:
