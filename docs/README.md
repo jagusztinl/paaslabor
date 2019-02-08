@@ -31,6 +31,6 @@ A labor célja a következő témák áttekintése:
 [OpenShift](Elmelet3.md)
 
 # Hasznos linkek
-[Links] (Linkek.md)
+[Links](Linkek.md)
 
 ---
