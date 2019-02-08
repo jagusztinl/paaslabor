@@ -1,5 +1,5 @@
 ![alerantlogo](https://www.alerant.hu/img/logo.svg) 
-# BME PaaS labor 
+# BME PaaS labor segédlet
 ## Tudnivalók
 **Labor email elérhetőség:** alerant.bme.paas.labor@gmail.com
 
@@ -22,16 +22,15 @@ A labor célja a következő témák áttekintése:
 
 # Elméleti áttekintés
 ## IaaS, PaaS, SaaS
-[IaaS, PaaS, SaaS áttekintés](docs/Elmelet1.md)
+[IaaS, PaaS, SaaS áttekintés](Elmelet1.md)
 
 ## Docker
-[Docker](docs/Elmelet2.md)
-## OpenShift áttekintés
-[OpenShift](docs/Elmelet3.md)
+[Docker](Elmelet2.md)
 
----
+## OpenShift áttekintés
+[OpenShift](Elmelet3.md)
 
 # Hasznos linkek
-[Linkek](docs/Linkek.md)
+[Links] (Linkek.md)
 
 ---
