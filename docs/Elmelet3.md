@@ -13,10 +13,17 @@ Ezekre a problémákra vannak létező megoldások, technológiák:
 - Hálózati eszközök: Open vSwitch, Linux kernel technológiák
 - Monitorozás: Hawkular
 
-Az OpenShift az előbbi problémákra megoldást nyújt, ráépülve a Docker konténer technológiára és más bevált eszközökre.
+Az OpenShift az előbbi problémákra megoldást nyújt, ráépülve a Docker konténer technológiára és más bevált eszközökre elsősorban a Kubernetes-re.
 
 # OpenShift OKD
-Origin --> OKD (3.109)
+OKD = The Origin Community Distribution of Kubernetes 
+- azaz egy Kubernetes disztribúció, amely optimalizált a CI/CD folyamatokra és a multi-tenant működésre
+- korábban Origin (3.10 előtt), most már deklaráltan Kubernetes disztribúció
+- korábban is a legnagyobb kollaborátor projekt, számos Kubernetes feature forrása, pl. Role Based Access Control(RBAC)
+
+[OpenShift történelem](https://blog.openshift.com/openshift-kubernetes-where-weve-been-and-where-were-going-part-1/)
+
+[OpenShift jövő](https://blog.openshift.com/openshift-kubernetes-where-weve-been-and-where-were-going-part-2/)
 
 # Alapfogalmak
 - **Project**: adminisztratív izoláció, az egyes szállítók külön-külön egymástól izolálva dolgozhatnak egy-egy projekten. A Node-ot kivéve minden OpenShift entitás/resource Project scopeú.
@@ -30,6 +37,7 @@ Az OpenShift alapegységei YAML ill. JSON formátumban is leírhatók.
 
 # OpenShift Architektúra
 ![openshift_arch](../common/images/openshift_arch2.png)
+![openshift_arch4](../common/images/openshift_arch4.png)
 
 # Alkalmazásfejlesztés
 ![s2i_2](../common/images/s2i_2.png)
@@ -74,7 +82,7 @@ Leírja a telepítési folyamat részleteit.
 
 
 # OpenShift adminisztráció
-1. OpenShift dashboard GUI felület: https://bmepaas-master.openshift.local:8443
+1. OpenShift dashboard GUI felület: https://127.0.0.1:8443 (oc cluster up után)
 2. oc CLI kliens
 
 ## Authentikáció és Authorizáció
