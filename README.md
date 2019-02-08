@@ -3,6 +3,8 @@
 ## Tudnivalók
 **Labor email elérhetőség:** alerant.bme.paas.labor@gmail.com
 
+GitHub page: https://alerantbme.github.io/paaslabor/
+
 ---
 # Célkitűzés, tematika
 A labor célja a következő témák áttekintése:
