@@ -19,7 +19,7 @@ A labor célja a következő témák áttekintése:
   - OpenShift alapfogalmak áttekintése(Service, Pod, Route).
 
 ---
-# Előzetes felkészülés
+# Előzetes felkészülés (Opcionális)
 - Az elméleti anyagok célja a téma áttekintése, a megértéshez szükséges hasznos ábrák és linkek gyűjteménye. 
 - Nem cél, hogy minden téma, fogalom részletesen leírásra kerüljön. Ezek a témák számos helyen, sokkal jobban dokumentálva vannak.
 - Az alábbi elméleti anyagok a gyakorlat során részletesen bemutatásra kerülnek.
