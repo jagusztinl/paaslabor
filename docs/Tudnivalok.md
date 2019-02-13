@@ -95,13 +95,6 @@ git/
 
 dnsmasq config fájl: /etc/NetworkManager/dnsmasq.d
 
-## IP-k
-```shell
-192.168.30.11	bmepaas-master.openshift.local
-192.168.30.12	bmepaas-node1.openshift.local
-192.168.30.13	bmepaas-node2.openshift.local
-```
-
 
 ## Elérések
 
