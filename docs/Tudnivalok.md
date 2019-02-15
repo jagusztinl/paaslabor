@@ -102,7 +102,7 @@ dnsmasq config fájl: /etc/NetworkManager/dnsmasq.d
 - Vannak már Docker image-ek a lokális gépen, azt próbáljátok használni elsősorban és ne újakat töltsetek le!
 
 ## OpenShift témához
-- Lokális OpenShift elindítása: sudo systemctl start openshift
+- Lokális OpenShift elindítása: oc cluster up
 
 ## Jegyzőkönyv
 

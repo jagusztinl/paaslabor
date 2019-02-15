@@ -6,7 +6,8 @@
 
 **Fontos:**
 - Lokális OpenShift is használható a virtuális gépetekben!
-_sudo systemctl status openshift_ paranccsal ellenőrizd, hogy fut-e.
+'sudo systemctl status openshift' paranccsal ellenőrizd, hogy fut-e
+'sudo systemctl start openshift' paranccsal indítsd ha nem futna
 - OpenShift konvenciók, ha a központi Openshifttel dolgoztok.
   - Felhasználónevetek legyen: studentxy - ahol x y a nevetek kezdőbetűi pl. studentnz (kisbetűk)
   - Projektek nevei: gyakorlatNxy - N a gyakorlat száma, x, y lsd. előbb, pl. gyakorlat2nz (kisbetűk)

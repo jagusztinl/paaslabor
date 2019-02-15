@@ -7,10 +7,9 @@
 - Lokális OpenShift is használható a virtuális gépetekben!
 _sudo systemctl status openshift_ paranccsal ellenőrizd, hogy fut-e.
 
-- OpenShift konvenciók, ha a központi OpenShiftet használjátok:
+- Javasolt OpenShift elnevezési konvenciók:
   - Felhasználónevetek legyen: studentxy - ahol x y a nevetek kezdőbetűi pl. studentnz (kisbetűk)
   - Projektek nevei: gyakorlatNxy - N a gyakorlat száma, x, y lsd. előbb, pl. gyakorlat2nz (kisbetűk)
-- Mindenki a saját userét használja ezután, hogy izoláltan dolgozzatok!
 
 
 ## Telepített OpenShift áttekintése - vezetett bemutató
@@ -28,8 +27,6 @@ _sudo systemctl status openshift_ paranccsal ellenőrizd, hogy fut-e.
 _További dokumentáció: https://docs.openshift.org/latest/welcome/index.html_
 
 ```shell
-oc cluster status
-oc cluster up
 oc login https://127.0.0.1:8443
 #vagy lokálisan:
 oc login -u system:admin
@@ -47,10 +44,6 @@ oc login -u system:admin
 Node-ok:
 ```shell
 oc get nodes
-NAME                             STATUS                     AGE
-bmepaas-master.openshift.local   Ready,SchedulingDisabled   2d
-bmepaas-node1.openshift.local    Ready                      2d
-bmepaas-node2.openshift.local    Ready                      2d
 ```
 _A master-re nem kerülhet Pod (SchedulingDisabled)_
 
