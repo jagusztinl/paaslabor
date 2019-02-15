@@ -1,4 +1,3 @@
-![alerantlogo](https://www.alerant.hu/img/logo.svg) 
 **Labor email elérhetőség:** alerant.bme.paas.labor@gmail.com
 
 ---
