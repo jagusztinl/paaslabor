@@ -1,21 +1,6 @@
 **Labor email elérhetőség:** alerant.bme.paas.labor@gmail.com
 
 ---
-# Célkitűzés, tematika
-A labor célja a következő témák áttekintése:
-- **Alapműveletek konténerben futtatott alkalmazásokkal**
-  - Docker konténer létrehozása dockerfile vagy Docker Hub image alapján,
-  - Docker registry használata,  
-  - a hoszt és a konténer kapcsolódásának vizsgálata (folyamat-azonosítók, portok, névterek), 
-  - parancsok futtatása a konténerben,
-  - webszerver futtatása, elérése, módosítása.
-- **OpenShift**
-  - konténer orchestration, 
-  - deployment folyamatok,
-  - OpenShift architektúra áttekintése ,
-  - OpenShift alapfogalmak áttekintése(Service, Pod, Route).
-
----
 # Előzetes felkészülés (Opcionális)
 - Az elméleti anyagok célja a téma áttekintése, a megértéshez szükséges hasznos ábrák és linkek gyűjteménye. 
 - Nem cél, hogy minden téma, fogalom részletesen leírásra kerüljön. Ezek a témák számos helyen, sokkal jobban dokumentálva vannak.
