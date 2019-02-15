@@ -2,7 +2,7 @@
 
 ## VirtualBox importálás
 
-Otthoni munkához, a gyakorlatok befejezéséhez a virtuális gép letölthető innen (BME hálóról): curl -L0 http://ossrv1.aut.bme.hu/alerantbme_paaslabor_student_2019.ova
+Otthoni munkához, a gyakorlatok befejezéséhez a virtuális gép letölthető innen (BME hálóról): curl -O http://ossrv1.aut.bme.hu/ALBME_PaaSLabor_CentOS7_2019v1.ova (vagy csak böngészőbe másold be) 
 
 Labor során a desktop gépen is megvan itt: C:\VPCImages\PAAS\alerantbme_paaslabor_student_2019.ova
 
