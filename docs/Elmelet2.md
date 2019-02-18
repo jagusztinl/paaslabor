@@ -10,6 +10,9 @@
 
 
 ![containervsvm](../common/images/ContainerVsVM.jpg)
+(Miben rossz ez az ábra? - és a hasonló ábrák 80%-a)
+
+## Demo (container from scratch)
 
 ## Alapfogalmak
 - Docker image: A linux root fájlrendszer módosításainak rendezett és rétegelt gyűjteménye. Nem módosítható. A futó konténerek alapja, tartalmaz minden információt, hogy egy konténer példányosítható legyen belőle.
