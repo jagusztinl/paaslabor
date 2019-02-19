@@ -4,7 +4,7 @@
 
 Otthoni munkához, a gyakorlatok befejezéséhez a virtuális gép letölthető innen (BME hálóról): curl -O http://ossrv1.aut.bme.hu/ALBME_PaaSLabor_CentOS7_2019v1.ova (vagy csak böngészőbe másold be) 
 
-Labor során a desktop gépen is megvan itt: C:\VPCImages\PAAS\alerantbme_paaslabor_student_2019.ova
+Labor során a desktop gépen is megvan itt: C:\VPCImages\BI\ALBME_PaaSLabor_CentOS7_2019v1.ova
 
 ### Korábbi virtuális gép törlése
 Óvatosan, nehogy más virtuális gépét töröljétek ki!
@@ -16,7 +16,7 @@ Labor során a desktop gépen is megvan itt: C:\VPCImages\PAAS\alerantbme_paasla
 1. Hozd létre a C:\Work\VirtualBox könyvtárat (ha ott van már és nincs másnak a virtuális gépe benne, akkor törölj belőle mindent)
 2. VirtualBox-ban:
 - Ellenőrizd: File->Preferences->General->Default Machince (Fájl->Beállítások->Általános->Alapértelmezett gép mappa) folder beállítása: C:\Work\VirtualBox
-- Import Appliance: C:\VPCImages\PAAS\alerantbme_paaslabor_student_2019.ova
+- Import Appliance: fenti .ova fájlt kell kikeresni.
 - Ellenőrizd a wizard utolsó lépésénél, hogy jó útvonal került-e be
 
 ## VirtualBox CentOS információk
