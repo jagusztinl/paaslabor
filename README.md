@@ -21,3 +21,4 @@ A labor célja a következő témák áttekintése:
   - OpenShift alapfogalmak áttekintése(Service, Pod, Route).
 
 ---
+Amennyiben szívesen megismernéd az Alerant tevékenységét, látogass el honlapunkra: https://www.alerant.hu/
