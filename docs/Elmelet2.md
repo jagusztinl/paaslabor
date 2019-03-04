@@ -10,7 +10,7 @@
 ![containervsvm](../common/images/ContainerVsVM.jpg)
 (Miben rossz ez az ábra?)
 
-## Demo (container from scratch)
+## Container from scratch
 - Példa konténer létrehozásra alap linux eszköztárral: https://ericchiang.github.io/post/containers-from-scratch/
 - https://opensource.com/article/18/1/history-low-level-container-runtimes
 
