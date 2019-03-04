@@ -10,7 +10,7 @@
 
 
 ![containervsvm](../common/images/ContainerVsVM.jpg)
-(Miben rossz ez az ábra? - és a hasonló ábrák 80%-a)
+(Miben rossz ez az ábra?)
 
 ## Demo (container from scratch)
 
