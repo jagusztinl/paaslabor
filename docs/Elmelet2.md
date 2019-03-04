@@ -6,13 +6,13 @@
 - Linux kernel technológiákra épülő izolált környezet
 - Izolált névterek (fs, net, ps, mount, ipc,...)
 - Kiforrott, gyors, biztonságos, optimális erőforrás használat
-- Példa konténer létrehozásra alap linux eszköztárral: https://ericchiang.github.io/post/containers-from-scratch/
-
 
 ![containervsvm](../common/images/ContainerVsVM.jpg)
 (Miben rossz ez az ábra?)
 
 ## Demo (container from scratch)
+- Példa konténer létrehozásra alap linux eszköztárral: https://ericchiang.github.io/post/containers-from-scratch/
+- https://opensource.com/article/18/1/history-low-level-container-runtimes
 
 ## Alapfogalmak
 - Docker image: A linux root fájlrendszer módosításainak rendezett és rétegelt gyűjteménye. Nem módosítható. A futó konténerek alapja, tartalmaz minden információt, hogy egy konténer példányosítható legyen belőle.
