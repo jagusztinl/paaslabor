@@ -23,7 +23,7 @@
 https://docs.docker.com/engine/reference/glossary
 ![images_containers](../common/images/docker_images_containers.png)
 ![images_container_images](../common/images/dockercontainerimage.png)
-![linux_containers](../common/images/linuxcontainers.png)
+![linux_containers](../common/images/linux_containers.png)
 
 ## OCI
 ![oci_standards](../common/images/oci.png)
