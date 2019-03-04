@@ -36,8 +36,9 @@ OKD = The Origin Community Distribution of Kubernetes
 Az OpenShift alapegységei YAML ill. JSON formátumban is leírhatók. 
 
 # OpenShift Architektúra
-![openshift_arch](../common/images/openshift_arch2.png)
+![openshift_arch2](../common/images/openshift_arch2.png)
 ![openshift_arch4](../common/images/openshift_arch4.png)
+![openshift_arch6](../common/images/openshift_arch6.png)
 
 # Alkalmazásfejlesztés
 ![s2i_2](../common/images/s2i_2.png)
@@ -53,6 +54,8 @@ A következő módon lehet az OpenShift-en alkalmazásokat buildelni:
 4. Jenkins Pipeline build
 
 A Buildeléshez is Docker containerek jönnek létre! Pl. a megadott forrást egy Java+Maven+Nexus -al konfigurált build container fordítja le.
+
+![openshift_arch5](../common/images/openshift_arch5.png)
 
 **BuildConfig**
 
