@@ -22,6 +22,12 @@
 
 https://docs.docker.com/engine/reference/glossary
 ![images_containers](../common/images/docker_images_containers.png)
+![images_container_images](../common/images/dockercontainerimage.png)
+![linux_containers](../common/images/linuxcontainers.png)
+
+## OCI
+![oci_standards](../common/images/oci.png)
+![oci_standards_rel](../common/images/oci2.png)
 
 ## Docker architektúra
 ![dockerlinux](../common/images/dockerarch.png)
