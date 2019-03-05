@@ -25,7 +25,7 @@ _Hint: oc get rc, oc get dc, oc scale_
 
 ### Célja, leírás
 Ennek a feladatnak a célja, hogy kipróbáljuk a POD-ok automatikus skálázását. Az előző feladatból indulj ki.
-- oc cluster up-pal nem működik az automatic healthcheck, csak a telepített több node-os openshiften próbálható ki
+- [oc cluster up](https://bugzilla.redhat.com/show_bug.cgi?id=1558689)-pal nem működik az automatic healthcheck, csak a telepített több node-os openshiften próbálható ki
 - Módosítsd a DeploymentConfig-ot, ahol megadod pl. a CPU request-et.
 ```shell
 oc edit dc
