@@ -81,7 +81,7 @@ oc patch route/bluegreen -p '{"spec":{"to":{"name":"green"}}}'
 
 ```
 **A/B deployment**
-Több verzió is ki van telepítve és bizonyos százalékban/vagy egyéb feltételek mentén valaki az egyik, valaki a másik verziót látja.
+Több verzió is ki van telepítve és bizonyos százalékban/vagy egyéb feltételek mentén valaki az egyik, valaki a másik verziót látja.  Példa:
 ```shell
 oc annotate route/ab haproxy.router.openshift.io/balance=roundrobin
 oc set route-backends ab cats=100 city=0
