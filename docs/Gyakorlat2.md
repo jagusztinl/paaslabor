@@ -12,7 +12,7 @@ _sudo systemctl status openshift_ paranccsal ellenőrizd, hogy fut-e.
   - Projektek nevei: gyakorlatNxy - N a gyakorlat száma, x, y lsd. előbb, pl. gyakorlat2nz (kisbetűk)
 
 
-## Telepített OpenShift áttekintése - vezetett bemutató
+## Telepített OpenShift áttekintése - vezetett bemutató - szinkronban elvégzendő lépések
 ### Dashboard
 - Belépés/Kilépés
 - Új projekt létrehozása (projektnév egyedi!)
@@ -38,7 +38,7 @@ oc project XXXX
 ```shell
  oc login https://127.0.0.1:8443   
 #vagy lokálisan:
-oc login -u system:admin
+oc login -u studentxy/password
 ```
 
 Node-ok:
