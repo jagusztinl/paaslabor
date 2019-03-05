@@ -90,11 +90,12 @@ git/
 
 ## Helyhiány
 - Ha kevés a hely, akkor a Kubernetes Node Kubelet kilépteti a Pod-okat (Evicted), erre megoldási lehetőségek:
-1. több disk kell a virtuális gép alá
-2. törölni kell felesleges dolgokat a diskről
-3. EvictionPolicy-t kell állítani:
+1. sudo yum clean
+2. cleanup.sh
+3. törölni kell felesleges dolgokat a diskről
+4. EvictionPolicy-t kell állítani:
 ```
-vim /var/lib/origin/openshift.local.config/node-localhost/node-config.yaml 
+sudo vim /var/lib/origin/openshift.local.config/node-localhost/node-config.yaml 
 kubeletArguments:
   eviction-hard:
   - memory.available<100Mi
