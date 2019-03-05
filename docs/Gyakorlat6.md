@@ -1,5 +1,5 @@
 
-# Gyakorlat 6. - Hálózat
+# Gyakorlat 6. - Hálózat (opcionális)
 
 ## Tudnivalók
 [Fontos információk](Tudnivalok.md)
