@@ -25,7 +25,7 @@ _Hint: oc get rc, oc get dc, oc scale_
 
 ### Célja, leírás
 Ennek a feladatnak a célja, hogy kipróbáljuk a POD-ok automatikus skálázását. Az előző feladatból indulj ki.
-- újra kell indítani az OpenShift-et, hogy a metrika kezelés feature is be legyen kapcsolva (oc cluster down, oc cluster up --metrics)
+- oc cluster up-pal nem működik az automatic healthcheck, csak a telepített több node-os openshiften próbálható ki
 - Módosítsd a DeploymentConfig-ot, ahol megadod pl. a CPU request-et.
 ```shell
 oc edit dc
