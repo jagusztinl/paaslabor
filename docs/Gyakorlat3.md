@@ -33,7 +33,7 @@ Ezek beállításával automatizálható az ellenőrzése az alkalmazásotoknak.
 
 ```shell
 oc login -u developer -p developer
-oc new-project gyakorlat6nz
+oc new-project gyakorlat3nz
 oc new-app devopswithopenshift/welcome:latest --name myapp
 oc expose service myapp
 
@@ -49,7 +49,7 @@ oc set probe dc/myapp --liveness -- echo ok
 oc set probe dc myapp --remove --readiness --liveness
 
 #az alkalmazás futásának ellenőrzése
-while true; do curl -I http://myapp-gyakorlat6nz.127.0.0.1.nip.io/ 2>/dev/null | head -n 1 | cut -d$' ' -f2;sleep 1;done
+while true; do curl -I http://myapp-gyakorlat3nz.127.0.0.1.nip.io/ 2>/dev/null | head -n 1 | cut -d$' ' -f2;sleep 1;done
 
 #manuális deployment trigger = kézi telepítés
 oc rollout latest myapp
