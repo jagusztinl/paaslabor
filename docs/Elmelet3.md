@@ -126,6 +126,9 @@ A következő hálózati problémákra ad megoldást az OpenShift
 - Újrainduló Pod-ok változó IP címeinek lekövetése.
 - Projekt izoláció - nem láthatják egymást különböző projektek különböző alkalmazásai
 
+Illusztrált Kubernetes networking:
+https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/
+
 ![networking](../common/images/openshift_arch.png)
 ## Routing
 A fő problémát az jelenti, hogy a különböző Node-okon létrejövő Pod-okban futó alkalmazást, hogyan lehet kívülről elérni, használni.
