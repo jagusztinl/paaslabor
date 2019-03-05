@@ -88,6 +88,22 @@ git/
 
 ```
 
+## Helyhiány
+- Ha kevés a hely, akkor a Kubernetes Node Kubelet kilépteti a Pod-okat (Evicted), erre megoldási lehetőségek:
+1. több disk kell a virtuális gép alá
+2. törölni kell felesleges dolgokat a diskről
+3. EvictionPolicy-t kell állítani:
+```
+vim /var/lib/origin/openshift.local.config/node-localhost/node-config.yaml 
+kubeletArguments:
+  eviction-hard:
+  - memory.available<100Mi
+  - nodefs.available<1%
+  - nodefs.inodesFree<1%
+  - imagefs.available<1%
+
+```
+
 
 ## DNS és hosts fájl
 - Az openshift-es alkalmazások core komponensek alapvetően IP-vel érhetőek el, de az /etc/hosts fájlban fel vannak véve a FQDN-ek
