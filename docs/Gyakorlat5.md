@@ -20,7 +20,7 @@ Ennek a feladatnak a célja, hogy kipróbáljuk a POD-ok skálázását.
 2. Eddig 1 db POD-ot indított el a ReplicationController, próbáld ki, hogy manuálisan növelitek a POD számot (DeploymentConfig szinten).
 _Hint: oc get rc, oc get dc, oc scale_
 
-## Feladat 2. - OpenShift automatikus skálázás
+## Feladat 2. - OpenShift automatikus skálázás (opcionális, oc cluster up-pal nem megy)
 **Időtartam: ~20 perc**
 
 ### Célja, leírás
