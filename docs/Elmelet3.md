@@ -25,6 +25,9 @@ OKD = The Origin Community Distribution of Kubernetes
 
 [OpenShift jövő](https://blog.openshift.com/openshift-kubernetes-where-weve-been-and-where-were-going-part-2/)
 
+[OpenShift vs Kubernetes](https://cloudowski.com/articles/10-differences-between-openshift-and-kubernetes/)
+
+
 # Alapfogalmak
 - **Project**: adminisztratív izoláció, az egyes szállítók külön-külön egymástól izolálva dolgozhatnak egy-egy projekten. A Node-ot kivéve minden OpenShift entitás/resource Project scopeú.
 - **User**: az OpenShift felhasználói, akik tevékenysége jogosultságkezeléssel korlátozható
