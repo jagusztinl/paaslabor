@@ -4,21 +4,20 @@
 **Labor email elérhetőség:** alerant.bme.paas.labor@gmail.com
 
 GitHub page: https://alerantbme.github.io/paaslabor/
+---
+# Objective, theme
+The aim of the lab is to review the following topics:
+- ** Basic Operations with Applications Running in Containers **
+   - create a Docker Container based on dockerfile or Docker Hub image
+   - using Docker Registry
+   - examining the connection between the host and the container (process IDs, ports, namespaces),
+   - run commands in the container
+   - running, accessing, and modifying a web server.
+- ** OpenShift **
+   - container orchestration,
+   - deployment processes,
+   - Overview of OpenShift architecture
+   - Overview of OpenShift concepts (Service, Pod, Route).
 
 ---
-# Célkitűzés, tematika
-A labor célja a következő témák áttekintése:
-- **Alapműveletek konténerben futtatott alkalmazásokkal**
-  - Docker konténer létrehozása dockerfile vagy Docker Hub image alapján,
-  - Docker registry használata,  
-  - a hoszt és a konténer kapcsolódásának vizsgálata (folyamat-azonosítók, portok, névterek), 
-  - parancsok futtatása a konténerben,
-  - webszerver futtatása, elérése, módosítása.
-- **OpenShift**
-  - konténer orchestration, 
-  - deployment folyamatok,
-  - OpenShift architektúra áttekintése ,
-  - OpenShift alapfogalmak áttekintése(Service, Pod, Route).
-
----
-Amennyiben szívesen megismernéd az Alerant tevékenységét, látogass el honlapunkra: https://www.alerant.hu/
+If you would like to know the activities of Alerant, visit our website: https://www.alerant.hu/
